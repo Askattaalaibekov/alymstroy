@@ -1,0 +1,97 @@
+.tpan{
+  background-color: #205C84 !important;
+}
+
+
+.tpan .lang__current:before {
+  background-color: transparent !important;
+}
+
+.offer__content {
+  max-width: 50em;
+}
+
+.offer__overlay {
+  background-color: #424056;
+  opacity: 0.5;
+}
+
+.services__item:before {
+  background-color: #424057 !important;
+}
+
+.mserv ul li:before, .mserv ul li:after{
+  background-color: #6CBEEB !important;
+}
+
+.price__head {
+  display: none;
+}
+
+.price__service {
+  color: #252525 !important;
+  font-size: 1.125em;
+  font-weight: 700;
+}
+
+.price__data:not(:last-child) {
+  border-bottom: 0.0625em solid rgb(108, 190, 235);
+}
+
+.app__arrow, .socials__icon{
+    fill: #424057 !important;
+}
+
+/* binotel */
+#bingc-phone-button.bingc-phone-button svg.bingc-phone-button-circle circle.bingc-phone-button-circle-inside {
+  fill: #424056 !important;
+}
+
+#bingc-phone-button.bingc-phone-button:hover svg.bingc-phone-button-circle circle.bingc-phone-button-circle-inside {
+  fill: #424056 !important;
+}
+
+#bingc-phone-button.bingc-phone-button div.bingc-phone-button-tooltip {
+  background: #424056 !important;
+}
+
+#bingc-phone-button.bingc-phone-button div.bingc-phone-button-tooltip svg.bingc-phone-button-arrow polyline {
+ fill: #424056 !important;
+}
+
+#bingc-passive.bingc-passive div.bingc-passive-overlay {
+  background: #424056 !important;
+}
+
+#bingc-passive.bingc-passive div.bingc-passive-overlay div.bingc-passive-content div.bingc-passive-get-phone-form form.bingc-passive-get-phone-form a.bingc-passive-phone-form-button,
+#bingc-active.bingc-active div.bingc-active-overlay div.bingc-active-content div.bingc-active-get-phone-form form.bingc-active-get-phone-form a.bingc-active-phone-form-button {
+    background-color: #e81902 !important;
+}
+
+#bingc-passive.bingc-passive div.bingc-passive-overlay div.bingc-passive-content div.bingc-passive-get-phone-form form.bingc-passive-get-phone-form a.bingc-passive-phone-form-button:hover,
+#bingc-active div.bingc-active-overlay div.bingc-active-content div.bingc-active-get-phone-form form.bingc-active-get-phone-form a.bingc-active-phone-form-button:hover.bingc-active {
+  background-color: #c7220f !important;
+}
+
+#bingc-active.bingc-active {
+  background: rgba(66,64,86,0.96) !important;
+}
+
+
+@media (min-width: 992px){
+  .services__grid {
+      margin: 0 auto;
+      margin-top: 5em;
+      max-width: 90%;
+  }
+  .team__wisywig h3{
+    font-size: 1.3em;
+  }
+}
+
+@media (min-width: 768px) {
+  .chatmess {
+      margin-right: -3em;
+      margin-bottom: -3em;
+  }
+}
